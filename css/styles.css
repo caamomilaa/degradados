@@ -8,6 +8,84 @@ img {
   max-width: 100%;
   display: block;
 }
+body{
+  background-color: rgb(202, 192, 193);
+}
 html {
   scroll-behavior: smooth;
+}
+.flag-1{
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(red 50px, blue 50px 100px, orange 100px);
+}
+.flag-2{
+  margin-left: 250px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(to right, black 70px, yellow 70px 140px, red 140px);
+}
+.flag-3{
+  margin-left: 500px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(rgb(62, 131, 199) 50px, white 50px 62.5px, black 62.5px 87.5px,white 87.5px 100px , rgb(62, 131, 199) 100px);
+}
+.flag-4{
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(to right, green 80px, transparent 80px), linear-gradient(yellow 75px, red 75px);
+}
+.flag-5{
+  margin-left: 250px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(135deg, green 37.5%, yellow 37.5% 62.5%, red 62.5%);
+}
+.flag-6{
+  margin-left: 500px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image:
+  linear-gradient(125deg,blue 0% 20%, transparent 20%),
+  linear-gradient(135deg,yellow 20% 40%, transparent 40%),
+  linear-gradient(145deg,red 40% 60%, transparent 60%),
+  linear-gradient(165deg,white 60% 80%, transparent 80%),
+  linear-gradient(135deg, green 100%, transparent 20%);
+}
+.flag-7{
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 210px;
+  height: 150px;
+  background-image: radial-gradient(circle, red 35%,white 35% ) ;
+}
+.flag-8{
+  margin-left: 250px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image: radial-gradient(circle at 90px, yellow 35%,rgb(97, 172, 204) 35% ) ;
+}
+.flag-9{
+  margin-left: 500px;
+  margin-top: -150px;
+  width: 210px;
+  height: 150px;
+  background-image: linear-gradient(red 40px, transparent 40px 110px, red 110px),
+  radial-gradient(circle, white 25%,rgb(16, 16, 97) 25% );
+}
+.arcoiris{
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 410px;
+  height: 350px;
+  background-color: grey;
+  background-image: radial-gradient(circle at bottom center,grey 10%,red 10% 20%, orange 20% 30%, yellow 30% 40%, green 40% 50%, blue 50% 60%, purple 60% 70%, pink 70% 80%, grey 80%);
 }
